@@ -11,4 +11,6 @@ Router.map(function () {
     as: 'form-builder',
     path: '/form-builder',
   });
+  this.route('home', { path: '/' });
+  this.route('beerrequest', { path: '/beerrequest/:document_id' });
 });
